@@ -60,11 +60,14 @@ public class Review {
         this.text = text;
     }
 
-    public boolean isGood() {
+    public boolean getIsGood() {
         return isGood;
     }
 
-    public void setGood(boolean good) {
+    public void setIsGood(boolean good) {
         isGood = good;
     }
+
+    //getLectureId
+    //return lecturer.id
 }
